@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar.jsx';
 import { BrowserRouter,Routes,Route} from 'react-router-dom'
 import ShopCategory from './pages/ShopCategory.jsx';
-import LoginSignup from './pages/LoginSignup.jsx';
+import Login from './pages/Login.jsx';
 import Shop from './pages/Shop.jsx';
 import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
@@ -23,7 +23,7 @@ function App() {
             <Route path= ':productId' element={<Product/>}/>
         </Route>
         <Route path= '/cart' element= {<Cart/>}/>
-        <Route path= '/login' element= {<LoginSignup/>}/>
+        <Route path= '/login' element= {<Login/>}/>
       </Routes>
 
       </BrowserRouter>
