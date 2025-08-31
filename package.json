@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://gittisha.github.io/E-commerce-Website-Frontend",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "webpack-dev-server": "^5.2.2"
+    "gh-pages": "^6.3.0"
   }
 }
