@@ -1,6 +1,5 @@
 import React from "react"
 import './Popular.css'
-import data from '../assets/data';
 import Item from '../Item/Item'
 import data_product from "../assets/data";
 
