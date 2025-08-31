@@ -21,4 +21,5 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+    animation: mZoomFadeSmall var(--m-duration-animate) ease forwards;
 }
