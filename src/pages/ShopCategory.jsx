@@ -3,7 +3,6 @@ import './Css/ShopCategory.css'
 import { ShopContext } from "../context/ShopContext";
 import dropdown_icon from '../components/assets/dropdown_icon.png'
 import Item from '../components/Item/Item.jsx'
-import all_product from "../components/assets/all_product.js";
 
 const ShopCategory = (props) => {
   const{all_product}= useContext(ShopContext);
