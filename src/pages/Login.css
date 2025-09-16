@@ -40,9 +40,9 @@
 }
 
 .input-group input {
-  width: 90%;              /* slightly narrower than card */
-  max-width: 280px;         /* never gets too long */
-  margin: 0 auto;           /* center input */
+  width: 90%;             
+  max-width: 280px;        
+  margin: 0 auto;        
   display: block;
   padding: 12px 14px;
   font-size: 16px;
